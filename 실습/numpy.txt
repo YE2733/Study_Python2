@@ -1,0 +1,16 @@
+Numpy Array와 Python List 차이
+- Array 구조를 사용하여 연속된 메모리에 저장
+- List는 각 객체의 주소 값을 저장하여 메모리에서 검색
+- 파이썬의 기본 List에 비해 빠르고, 메모리를 효율적으로 사용
+- List와는 다르게 모든 원소가 같은 자료형이어야 한다.
+- 원소의 개수를 바꿀 수 없다.
+
+Ndarray(N-Dimensional Array)
+- N차원의 배열
+- Numpy에 사용하는 배열 구조의 데이터 타입
+
+Axis : 배열의 각 축
+axis 0 = 수직
+axis 1 = 수평
+Rank : 축의 계수(차원의 수)
+Shape :  축의 길이
